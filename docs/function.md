@@ -531,7 +531,7 @@ const full = ({ first, last }) => first + ' ' + last;
 
 // 等同于
 function full( person ){
-  return person.first + ' ' + person.name;
+  return person.first + ' ' + person.last;
 }
 ```
 
